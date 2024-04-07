@@ -45,7 +45,7 @@ const RegisterForm = () => {
     e.preventDefault();
     console.log(formData); // Do something for sending form data
     try {
-        await axios.post('http://localhost:3000/users', formData);
+        await axios.post('https://users-b6io.onrender.com/users', formData);
         console.log('Form data submitted successfully!');
       } catch (error) {
         console.error('Error submitting form data:', error);

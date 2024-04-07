@@ -24,7 +24,7 @@ const EditUserPage = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/users/${id}`);
+        const response = await axios.get(`https://users-b6io.onrender.com/users/${id}`);
         setUserData(response.data);
       } catch (error) {
         console.error('Error fetching user data:', error);
@@ -61,7 +61,7 @@ const EditUserPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:3000/users/${id}`, userData);
+      await axios.put(`https://users-b6io.onrender.com/users/${id}`, userData);
       console.log('User data updated successfully!');
     } catch (error) {
       console.error('Error updating user data:', error);

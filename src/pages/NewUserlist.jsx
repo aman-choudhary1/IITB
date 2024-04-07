@@ -11,7 +11,7 @@ const NewUserlist = () => {
     // Fetch users from JSON server when component mounts
     const fetchUsers = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/users");
+        const response = await axios.get("https://users-b6io.onrender.com/users");
         setUsers(response.data);
       } catch (error) {
         console.error("Error fetching user data:", error);
@@ -27,7 +27,7 @@ const NewUserlist = () => {
 
   const handleDelete = async (userId) => {
     try {
-      await axios.delete(`http://localhost:3000/users/${userId}`);
+      await axios.delete(`https://users-b6io.onrender.com/users/${userId}`);
       setUsers((prevUsers) => prevUsers.filter((user) => user.id !== userId));
       console.log("User deleted successfully:", userId);
     } catch (error) {
