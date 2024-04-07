@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "febb",
+      "username": "Aman Choudhary",
+      "email": "aman.choudhary7722@gmail.com",
+      "password": "123456",
+      "mobileNumber": "7000081495",
+      "address": "DS-485 balgi korba Chhattisgarh",
+      "gender": "male",
+      "hobbies": [
+        "cricket"
+      ],
+      "degree": "bachelors",
+      "state": "chhattisgarh"
+    },
+    {
+      "id": "b7b6",
+      "username": "ayush",
+      "email": "ayush@gmail.com",
+      "password": "123455",
+      "mobileNumber": "3423645433",
+      "address": "bhilai",
+      "gender": "female",
+      "hobbies": [
+        "dancing"
+      ],
+      "degree": "doctorate",
+      "state": "chhattisgarh"
+    },
+    {
+      "id": "3077",
+      "username": "Akash",
+      "email": "Akash123@gmail.com",
+      "password": "12345",
+      "mobileNumber": "9863986593",
+      "address": "bhilai CG",
+      "gender": "male",
+      "hobbies": [
+        "cricket"
+      ],
+      "degree": "bachelors",
+      "state": "chhattisgarh"
+    }
+  ]
+}
